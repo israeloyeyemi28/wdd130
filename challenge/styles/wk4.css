@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    color: white;
+}
+img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.speech {
+    text-align: center;
+    color: white;
+}
+* {
+    background-color: palevioletred;
+}
+footer {
+    text-align: center;
+}
+ol {
+    font-weight: bold;
+}
+h1:hover {
+    color: black;
+}
