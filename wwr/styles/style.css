@@ -20,7 +20,7 @@ main section{
     height: 725px;
 }
 body{
-    background-color: #660000;
+    background-color: #f0c808;
 }
 header{
     background-color: #f0c808;
@@ -40,7 +40,7 @@ nav a:hover{
 }
 
 #background{
-    background-color: #07a0c3;
+    background-color: #199b19;
 }
 .msg{
     background-color: #199b19;;
@@ -78,7 +78,15 @@ h4{
 .msg p{
     color: #07a0c3;
 }
-
-.icon {
+.msgh2{
+    color: black;
+}
+.msg p{
+    color: black;
+}
+.logo {
     width: 80px;
+}
+#hero-img{
+    width: 100px;
 }
