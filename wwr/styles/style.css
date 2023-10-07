@@ -4,7 +4,7 @@
 }
 nav a{
     text-align: center;
-    color: #660000;
+    color: #0805ac;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
@@ -26,17 +26,17 @@ header{
     background-color: #f0c808;
 }
 nav a:hover{
-    background-color: black;
+    background-color: #199b19;
     color: #07a0c3;
 }
 .book, .join{
-    background-color: #07a0c3;
-    color: black;
+    background-color: #f0c808;
+    color: #0805ac;
     text-decoration: none;
 }
 .book, .join:hover{
-    background-color: #f0c808;
-    color: #07a0c3;
+    background-color: #0805ac;
+    color: #f0c808;
 }
 
 #background{
@@ -46,11 +46,11 @@ nav a:hover{
     background-color: #199b19;;
 }
 footer{
-    background-color:  #fc7a57;
-    color: #660000;  
+    background-color:  #f0c808;
+    color: #0805ac;  
 }
 footer a{
-    color: black;
+    color: #0805ac;
     text-decoration: none;
 }
 
@@ -67,10 +67,10 @@ footer a:hover{
 }
 
 h4{
-    color: black;
+    color: #0805ac;
 }
 .home-title{
-    color: black;
+    color: #0805ac;
 }
 .msg h2{
     color: #199b19;
@@ -79,10 +79,10 @@ h4{
     color: #07a0c3;
 }
 .msgh2{
-    color: black;
+    color: #0805ac;
 }
 .msg p{
-    color: black;
+    color: #0805ac;
 }
 .logo {
     width: 80px;
