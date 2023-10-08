@@ -17,6 +17,10 @@ nav a{
 main section{
     text-align: center;
 }
+
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
 }
@@ -57,13 +61,13 @@ nav a:hover{
     padding-bottom: 35px;
 }
 footer{
-    background-color:  #f0c808;
-    color: #0805ac;  
+    background-color:  #0805ac;
+    color: #f0c808;  
     padding: 25px 50px;
     margin-top: 200px;
 }
 footer a{
-    color: #0805ac;
+    color: #f0c808;
     text-decoration: none;
 }
 
@@ -92,7 +96,7 @@ h4{
     margin-top: 10px;
 }
 .msg h2{
-    color: #199b19;
+    color: #000000;
     font-family: 'Courier New', Courier, monospace; 
 }
 
@@ -100,15 +104,20 @@ h4{
     color: #0805ac;
 }
 .msg p{
-    color: #0805ac;
-    font-size: 8em;
+    color: #000000;
+    font-size: 0.8em;
     padding-bottom: 15px;
 }
 .logo {
     width: 80px;
 }
+
+#logo_link{
+    padding-top: 5px;
+}
+
 #hero-img{
-    width: 100px;
+    width: 100%;
 }
 
 h2{
@@ -116,6 +125,7 @@ h2{
 }
 .icon{
     padding-top: 10px;
+    width: 80px;
 }
 
 .rivers-card, .camping-card, .rapids-card{
