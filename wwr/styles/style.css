@@ -32,10 +32,10 @@ body{
     padding: 0;
 }
 header{
-    background-color: #f0c808;
+    background-color: #199b19;
 }
 nav a:hover{
-    background-color: #199b19;
+    background-color: #f0c808;
     color: #07a0c3;
 }
 .book, .join{
@@ -47,7 +47,7 @@ nav a:hover{
     margin-top: 50px;
     border-radius: 5px;
 }
-.book, .join:hover{
+.book:hover, .join:hover{
     background-color: #0805ac;
     color: #f0c808;
 }
