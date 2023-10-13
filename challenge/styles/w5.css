@@ -18,14 +18,16 @@
     border: 25px solid rgb(137,137,137);
     width: 200px;
     margin-left: 200px;
-    display: flex;
+
 }
 .front{
     margin: 0 auto;
+    z-index: 3;
 }
 .box{
     margin: 0 auto;
     background-color: rgb(137, 137, 137);
     position: fixed;
     display: flex;
+    text-align: center;
 }
