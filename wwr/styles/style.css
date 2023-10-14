@@ -114,11 +114,11 @@ footer .social img{
     padding-top: 15px;
 }
 
-h4{
-    color: #0805ac;
+#hero-msg h4{
+    color: #07a0c3;
 }
 .home-title{
-    color: #0805ac;
+    color: #07a0c3;
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     margin-top: 10px;
@@ -126,7 +126,7 @@ h4{
 
 .home-grid{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: repeat(1fr, 10);
 }
 
 .card-img, .mountains {
@@ -175,7 +175,6 @@ h4{
 
 #logo_link{
     padding-top: 5px;
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -186,10 +185,6 @@ h4{
     margin-top: -100px;
 }
 
-#hero-box{
-    grid-column: 1/4;
-    grid-row: 1/3;
-}
 
 #hero-img{
     width: 100%;
