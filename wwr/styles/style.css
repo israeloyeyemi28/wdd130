@@ -61,8 +61,8 @@ nav a:hover{
 .book, .join{
     background-color: #f0c808;
     color: #0805ac;
-    text-decoration: none;
     font-size: 18px;
+    text-decoration: none;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
