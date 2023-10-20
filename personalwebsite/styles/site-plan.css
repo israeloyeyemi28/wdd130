@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #10c216;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
+  --heading-font: "Open Sans";
   --paragraph-font: "Roboto";
   /* Fallback font in case the Google font doesn't load */
   font-family: 'Open Sans', sans-serif;
