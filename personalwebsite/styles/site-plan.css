@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #10c216;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Open Sans";
-  --paragraph-font: "Roboto";
+  --heading-font: "Open Sans",sans serif;
+  --paragraph-font: "Roboto",sans serif;
   /* Fallback font in case the Google font doesn't load */
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
