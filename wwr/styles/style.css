@@ -259,3 +259,42 @@ main section img{
         margin-top: 25px;
     }
 }
+
+
+
+
+
+/*FOR FAQS*/
+.rafters{
+    border-radius: 5%;
+    height: 100%;
+}
+
+.rafters:hover{
+    transform: scale(0.9,0.9);
+}
+
+
+
+.content {
+    background-color: #f4f803;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* Style the social icons */
+.social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+.social img:hover{
+    transform: scale(0.9,0.9);
+}

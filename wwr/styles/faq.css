@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 /* Style the main content container */
-#content {
+.content {
     background-color: #f4f803;
     margin: 20px;
     padding: 20px;
