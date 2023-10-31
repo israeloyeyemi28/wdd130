@@ -74,7 +74,7 @@ nav a:hover{
 
 #background{
     background-color: #199b19;
-    grid-column: 1/11;
+    grid-column: 1/11;    
     grid-row: 4/9;
 }
 .msg{
