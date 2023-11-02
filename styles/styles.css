@@ -1,0 +1,28 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    background-color: #0e0497;
+    display: flex;
+    justify-content: space-around;
+    color: #efefef;
+    height: 100px;
+    align-items: center;
+}
+a{
+    color: #efefef;
+}
+a:hover{
+    background-color: #efefef;
+    color: #0e0497;
+}
+
+h1{
+    color: #0d0d0d;
+}
+
+p{
+    color: #0d0d0d;
+    font-size: 1.15em;
+}
