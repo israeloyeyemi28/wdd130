@@ -224,12 +224,21 @@ main section img{
     height: 300px;
     margin-right: 20px;
     box-shadow: 5px 5px 10px #1d26cf;
+    border-radius: 20px;
 }
 
+.rafting:hover{
+    transform: skew(2deg);
+}
 .banner{
     width: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #1d26cf;
+    margin: 25px;
+}
+
+.banner:hover{
+    opacity: 0.9;
 }
 
 .second_rafters{
@@ -238,6 +247,44 @@ main section img{
     margin-right: 20px;
     box-shadow: 5px 5px 10px #1d26cf;
 }
+
+.second_rafters:hover{
+    transform: skew(2deg);
+}
+
+.mainbox{
+    text-align: center;
+}
+
+.main p,h2,ul{
+    margin: 50px;
+}
+
+
+.faqbox{
+    text-align: center;
+}
+
+.button{
+    background-color: #0805ac;
+    color: #f0c808;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.box{
+    text-align: center;
+}
+
+.button:hover{
+    opacity: 0.6;
+}
+
+
 
 
 
