@@ -226,6 +226,12 @@ main section img{
     box-shadow: 5px 5px 10px #1d26cf;
 }
 
+.banner{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #1d26cf;
+}
+
 .second_rafters{
     float: left;
     width: 500px;
