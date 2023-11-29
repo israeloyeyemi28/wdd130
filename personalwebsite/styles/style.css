@@ -34,8 +34,14 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     background-color: #f82e2e;
     width: 50%;
-    border-radius: 30px;
+   
 
+}
+
+.top-part{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
 }
 
 .text-1{
@@ -52,7 +58,7 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     background-color: #f82e2e;
     width: 50%;
-    border-radius: 30px;
+   
 }
 
 .text-5,.text-6,.text-7,.text-8,.text-9,.text-10{
@@ -61,7 +67,7 @@ h1,h2,h3,h4,h5,h6{
     color: #fff;
     background-color: #f82e2e;
     width: 50%;
-    border-radius: 30px;
+
 }
 
   
@@ -169,8 +175,12 @@ footer a:hover{
     margin: 0 auto;
 }
 
-.certificates{
-    width: 300px;
+.project-welcome{
+    background-color: #a0a0a0;
+}
+
+.certificate{
+    width: 200px;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
@@ -178,6 +188,10 @@ footer a:hover{
     
 }
 
+
+.certificate:hover{
+    transform: scale(1.1);
+}
 
 p{
     padding: 50px;
@@ -187,6 +201,28 @@ h3{
     padding: 20px;
 }
 
+
+#show-text{
+    text-align: center;
+    margin: 100px 100px;
+    font-size: larger;
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
+
+.showcase-subtitle {
+    grid-area: 1/1/2/3;
+    color: #14344e;
+    font-size: 2em;
+    font-family: "Rubik", "Helvetica", sans-serif;
+    display: grid;
+    place-items: center;
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width: 900px) {
