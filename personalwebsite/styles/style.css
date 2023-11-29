@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+
 .content{
     max-width: 1600px;
     margin: 0 auto;
@@ -18,12 +21,14 @@ nav a{
 
 body{
     background-color: #10c216;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', 'Courier New', Courier, monospace;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
 
 
 .text-0{
