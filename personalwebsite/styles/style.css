@@ -107,7 +107,7 @@ h6 {
   color: #000;
   margin: 30px;
   padding: 20px;
-}
+} 
 
 table {
   border-collapse: collapse;
@@ -124,10 +124,6 @@ th {
   background-color: #0041a3;
 }
 
-h2,
-p b {
-  text-align: center;
-}
 .top-div {
   background-color: #0052cc;
   text-align: center;
