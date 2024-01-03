@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now!</title>
+    <link rel="icon" type="image/jpg" href="images/ketchup chicken fries.jpeg">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <nav>
+                <a href="index.html">Home Page</a>
+                <a href="burgers.html">Burgers</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="order.html">Order Now!</a>
+            </nav>
+        </header>
+        <main>
+            <hr>
+            <h2>Order here!!</h2>
+            <hr>
+            <h2>Order your desired food for immediate delivery at a cheap and affordable cost</h2>
+            <div id="feedback">
+                <form action="index.php" method="POST">
+                    <label for="username">username:</label>
+                    <input type="text" id="username" minlength="6" maxlength="15" placeholder="spongebob" minlength="6"
+                        maxlength="15">
+
+                    <br><label for="whatsapp-no">Whatsapp:</label>
+                    <input type="tel" placeholder="+234-000-000-00-000" id="whatsapp-no">
+
+
+                    <br><label for="password">password:</label>
+                    <input type="password" id="password"><br>
+
+                    <label for="taste">Taste Rank:</label>
+                    <input type="range" id="taste">
+
+                    <br><label for="email">email:</label>
+                    <input type="email" id="email" placeholder="smthn.gmail.com"><br>
+
+                    <label for="qty">Quantity:</label>
+                    <input type="number" maxlength="20" minlength="1">
+                    <br><input type="reset"><br>
+                    <a href="#">
+                        <button onclick="alert(' Your Food Is Being Ordered')">ORDER HERE</button></a>
+
+                </form>
+            </div>
+        </main>
+        <footer>
+            <h3>Krabby Patty &copy; 2023.</h3>
+            <p><a href="#">Back to the top</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon" class="img-logo">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon" class="img-logo">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" class="img-logo">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
-
-.content {
+#content {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -12,43 +10,87 @@ nav {
 
 nav a {
   text-align: center;
-  color: #fff;
-  background-color: #003049;
+  color: #0805ac;
   text-decoration: none;
   padding: 35px;
-  margin: 25px;
-  
 }
 
+#hero-msg {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin-top: 100px;
+}
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+#background {
+  height: 725px;
+}
 body {
-  background-color: #fdf0d5
-  font-family: "Roboto", "Courier New", Courier, monospace;
+  background-color: #f0c808;
+  font-family: "Courier New", Courier, monospace;
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-}
 header {
-  background-color: #003049;
+  background-color: #199b19;
   display: grid;
   grid-template-columns: 150px auto;
 }
-
 nav a:hover {
-  background-color: #f82e2e;
-  color: #fff;
+  background-color: #f0c808;
+  color: #07a0c3;
+}
+.book,
+.join {
+  background-color: #f0c808;
+  color: #0805ac;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.book:hover,
+.join:hover {
+  background-color: #0805ac;
+  color: #f0c808;
+}
+
+#background {
+  background-color: #199b19;
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
+.msg {
+  background-color: #07a0c3;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
-  background-color: #003049;
-  color: #fff;
+  background-color: #0805ac;
+  color: #f0c808;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -56,7 +98,7 @@ footer {
   align-items: center;
 }
 footer a {
-  color: #fff;
+  color: #f0c808;
   text-decoration: none;
 }
 
@@ -69,12 +111,74 @@ footer p a:hover {
 }
 
 footer a:hover {
-  color: #fff;
+  color: #07a0c3;
+}
+footer .social img {
+  padding-top: 15px;
 }
 
+#hero-msg h4 {
+  color: #07a0c3;
+}
+.home-title {
+  color: #07a0c3;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.card-img,
+.mountains {
+  width: 100%;
+}
+
+.rapids-card,
+.rivers-card,
+.camping-card {
+  margin: 200px 0;
+}
+
+.rivers-card {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.mountains {
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.camping-card {
+  grid-column: 5/7;
+  grid-row: 2/3;
+}
+
+.rapids-card {
+  grid-column: 8/10;
+  grid-row: 2/3;
+}
+
+.msg h2 {
+  color: #000000;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.msgh2 {
+  color: #0805ac;
+}
+.msg p {
+  color: #000000;
+  font-size: 0.8em;
+  padding-bottom: 15px;
+}
 .logo {
-  width: 110px;
-  border-radius: 10px;
+  width: 80px;
 }
 
 #logo_link {
@@ -82,11 +186,227 @@ footer a:hover {
   justify-self: center;
   align-self: center;
 }
-.img-logo {
-  border-radius: 50%;
-  padding: 10px;
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
 }
 
-.img-logo:hover {
-  transform: rotate(20deg);
+#hero-img {
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+.icon {
+  padding-top: 10px;
+  width: 80px;
+}
+
+.card-img {
+  border: 10px solid #0805ac;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
+.rafting {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 10px #1d26cf;
+  border-radius: 20px;
+}
+
+.rafting:hover {
+  transform: skew(2deg);
+}
+.banner {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #1d26cf;
+  margin: 25px;
+}
+
+.banner:hover {
+  opacity: 0.9;
+}
+
+.second_rafters {
+  float: left;
+  width: 500px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 10px #1d26cf;
+}
+
+.second_rafters:hover {
+  transform: skew(2deg);
+}
+
+.mainbox {
+  text-align: center;
+}
+
+.main p,
+h2,
+ul {
+  margin: 50px;
+}
+
+.faqbox {
+  text-align: center;
+}
+
+.button {
+  background-color: #0805ac;
+  color: #f0c808;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.box {
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+#feedback {
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  /* make this element invisible until we are ready for it */
+  display: none;
+}
+.moveDown {
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 900px) {
+  #hero,
+  .home-grid {
+    display: block;
+    height: auto;
+  }
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+  #hero {
+    margin-top: 0;
+  }
+  #hero-msg {
+    margin-top: 0;
+  }
+  #hero-msg h4 {
+    display: none;
+  }
+  .home-title {
+    font-size: 25px;
+    color: #6f7364;
+  }
+  .rivers-card,
+  .camping-card,
+  .rapids-card {
+    margin: 50px auto;
+    width: 60%;
+  }
+  #background {
+    display: none;
+  }
+  .mountains,
+  .msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 25px;
+  }
 }
